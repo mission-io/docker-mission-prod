@@ -2,5 +2,5 @@
 # Node
 
 FROM alpine:latest
-RUN apk add nodejs  --no-cache
+RUN apk update && apk add --no-cache nodejs
 ENV NODE_ENV production
